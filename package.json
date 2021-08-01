@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "imagemin": "node imagemin.js"
+    "imagemin": "node imagemin.mjs"
   },
   "keywords": [],
   "author": "Manuel Bartels",
   "license": "ISC",
   "dependencies": {
     "del": "^6.0.0",
-    "imagemin": "^7.0.1",
+    "imagemin": "^8.0.0",
     "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-pngquant": "^9.0.1",
-    "imagemin-svgo": "^8.0.0"
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0"
   }
 }

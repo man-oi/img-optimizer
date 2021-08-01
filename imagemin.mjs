@@ -1,9 +1,9 @@
-const imagemin = require('imagemin');
-const mozjpeg = require('imagemin-mozjpeg');
-const pngquant = require('imagemin-pngquant');
-const svgo = require('imagemin-svgo');
-const del = require('del');
-const fs = require('fs');
+import imagemin from 'imagemin';
+import mozjpeg from 'imagemin-mozjpeg';
+import pngquant from 'imagemin-pngquant';
+import svgo from 'imagemin-svgo';
+import del from 'del';
+import fs from 'fs';
 
 
 const readFolders = (dir) => {
