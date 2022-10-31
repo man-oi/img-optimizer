@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "imagemin": "node imagemin.mjs"
@@ -11,10 +12,10 @@
   "author": "Manuel Bartels",
   "license": "ISC",
   "dependencies": {
-    "del": "^6.0.0",
+    "del": "^7.0.0",
     "imagemin": "^8.0.1",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^9.0.2",
-    "imagemin-svgo": "^9.0.0"
+    "imagemin-svgo": "^10.0.1"
   }
 }
